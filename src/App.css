@@ -182,3 +182,22 @@
     border-right-color: var(--border);
   }
 }
+.language-button {
+  background: white;
+  color: #2563eb;
+  border: none;
+  padding: 9px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.language-button:hover {
+  background: #eff6ff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
